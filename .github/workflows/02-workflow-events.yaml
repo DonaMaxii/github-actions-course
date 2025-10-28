@@ -12,3 +12,8 @@ jobs:
     steps:
       - name: Show the trigger
         run: echo "${{ github.event_name }}"
+  echo-2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show scheduled trigger
+        run: echo "Mensagem disparada pelo cron"
