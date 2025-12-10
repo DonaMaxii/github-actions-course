@@ -6,6 +6,10 @@ inputs:
     description: nodeJS version to use
     default: 20.x
     required: true
+  working-dir:
+    description: The working directory of the application
+    default: .
+    required: false
 
 runs:
   using: composite
